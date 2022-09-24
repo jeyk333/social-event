@@ -1,0 +1,33 @@
+.uploader-container {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  cursor: pointer;
+  background: linear-gradient(90deg, #8456ec 24.2%, #e87bf8 120.46%);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.no-image {
+  text-align: center;
+}
+
+.no-image h3 {
+  font-size: 36px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.uploader-container img {
+  object-fit: cover;
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+}
